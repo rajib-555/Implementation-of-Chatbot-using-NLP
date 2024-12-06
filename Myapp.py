@@ -48,7 +48,7 @@ nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
 
 # Load intents from the JSON file
-file_path = os.path.abspath("D:\python tutorial os\intents.json")
+file_path = os.path.abspath("intents.json")
 with open(file_path, "r") as file:
     intents = json.load(file)
 
@@ -99,8 +99,8 @@ def main():
             return base64.b64encode(img_file.read()).decode()
 
 # Path to your local image
-    image_path = "D:\python tutorial os\BG11.jpg"  # Replace with your local image path
-    logo_path ="D:\python tutorial os\logo.jpeg"
+    image_path = "BG11.jpg"  # Replace with your local image path
+    logo_path ="logo.jpeg"
 
 # Convert the image to base64
     background_image_base64 = image_to_base64(image_path)
