@@ -99,8 +99,8 @@ def main():
             return base64.b64encode(img_file.read()).decode()
 
 # Path to your local image
-    image_path = "BG11.jpg"  # Replace with your local image path
-    logo_path ="logo.jpeg"
+    image_path = "https://www.google.com/imgres?q=blue%20background%20hd%201024x&imgurl=https%3A%2F%2Fimages.wallpaperscraft.com%2Fimage%2Fsingle%2Fspace_background_blue_73340_1024x768.jpg&imgrefurl=https%3A%2F%2Fwallpaperscraft.com%2Fdownload%2Fspace_background_blue_dots_73340%2F1024x768&docid=1-ogocDhlKCiCM&tbnid=kjZg4qW_GhBMeM&vet=12ahUKEwjf77byuJOKAxX7TGwGHZsuHOQQM3oECCkQAA..i&w=1024&h=768&hcb=2&ved=2ahUKEwjf77byuJOKAxX7TGwGHZsuHOQQM3oECCkQAA"  # Replace with your local image path
+    logo_path ="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FBCRECIIC%2F&psig=AOvVaw3RciSIttv5avlTYlC5O6VD&ust=1733585376551000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjay5m7k4oDFQAAAAAdAAAAABAJ"
 
 # Convert the image to base64
     background_image_base64 = image_to_base64(image_path)
